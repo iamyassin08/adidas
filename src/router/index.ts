@@ -1,7 +1,7 @@
 // src/router/index.ts
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '@/views/HomeView.vue';
-import AppLayout from '@/layouts/AppLayout.vue';
+import HomeView from '../views/HomeView.vue';
+import AppLayout from '../layouts/AppLayout.vue';
 import { IStaticMethods } from 'preline/preline';
 import 'preline/preline';
 
@@ -19,7 +19,7 @@ const routes = [
     component: HomeView,
   },
   
-  
+
 ];
 
 const router = createRouter({
