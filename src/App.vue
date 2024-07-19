@@ -3,6 +3,7 @@ import { RouterView } from "vue-router";
 import { onMounted } from "vue";
 import { type IStaticMethods } from "preline/preline";
 
+
 declare global {
   interface Window {
     HSStaticMethods: IStaticMethods;
@@ -10,7 +11,16 @@ declare global {
 }
 
 
+onMounted(() => {
 
+  setTimeout(() => {
+    window.HSStaticMethods.autoInit();
+
+    
+    
+  
+  }, 100)
+});
 </script>
 
 <template>
@@ -18,4 +28,7 @@ declare global {
     <RouterView />
   </component>
 </template>
+<!-- /* Apply dark mode classes */ -->
+<style>
 
+</style>
