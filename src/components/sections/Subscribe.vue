@@ -14,7 +14,7 @@ import Button from "../Button.vue";
       <div class="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
         <input
           type="text"
-          placeholder="subscribe@nike.com"
+          placeholder="subscribe@adidas.com"
           class="input"
         />
         <div class="flex max-sm:justify-end items-center max-sm:w-full">

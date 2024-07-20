@@ -31,10 +31,10 @@ const bigShoeImage = '/assets/images/big-shoe1.png';
           The New Arrival
         </span>
         <br />
-        <span class="text-coral-red inline-block mt-3">Nike</span> Shoes
+        <span class="text-coral-red inline-block mt-3">Adidas</span> Shoes
       </h1>
       <p class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-        Discover stylish Nike arrivals, quality comfort, and innovation for
+        Discover stylish Adidas arrivals, quality comfort, and innovation for
         your active life.
       </p>
 
