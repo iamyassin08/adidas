@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import Button from '../Button.vue';
-import shoe8 from '../assets/images/shoe8.svg'; // Adjust the path and extension as needed
+
 </script>
 
 <template>

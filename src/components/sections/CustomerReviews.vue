@@ -1,21 +1,5 @@
 <script setup lang="ts">
-import ReviewCard from '../cards/ReviewCard.vue';
 
-// Initialize reviews with dummy data for the sake of example
-const reviews = [
-  {
-    imgURL: '/assets/images/review1.jpg',
-    customerName: 'John Doe',
-    rating: 5,
-    feedback: 'Excellent service and quality!'
-  },
-  {
-    imgURL: '/assets/images/review2.jpg',
-    customerName: 'Jane Smith',
-    rating: 4,
-    feedback: 'Very satisfied with the purchase.'
-  }
-];
 </script>
 
 <template>
