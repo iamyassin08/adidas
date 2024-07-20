@@ -8,29 +8,7 @@ const arrowRight2 = '/assets/icons/arrow-right.svg'; // Example path
 </script>
 
 <template>
-  <section class="special-offer-section">
-    <h2 class="text-3xl font-bold mb-4">Special Offer</h2>
-    <p class="text-lg mb-6">Don't miss out on our exclusive offers and discounts!</p>
-    <button class="btn">
-      <span>Learn More</span>
-      <img :src="arrowRight2" alt="arrow right icon" class="ml-2" />
-    </button>
-  </section>
-</template>
-
-<style scoped>
-.special-offer-section {
-  padding: 20px;
-  background-color: #f9f9f9;
-}
-.btn {
-  display: flex;
-  align-items: center;
-  background-color: #c0392b;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-</style>
+  <section class="padding"><section class="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container"><div class="flex-1"><img src="/src/assets/images/offer.svg" alt="Shoe Promotion" width="773" height="687" class="object-contain w-full"></div><div class="flex flex-1 flex-col"><h2 class="text-4xl font-palanquin font-bold"><span class="text-coral-red">Special </span>Offer</h2><p class="mt-4 info-text">Embark on a shopping journey that redefines your experience with unbeatable deals. From premier selections to incredible savings, we offer unparalleled value that sets us apart.</p><p class="mt-6 info-text">Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.</p><div class="mt-11 flex flex-wrap gap-4"><button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
+    bg-coral-red text-white border-coral-red rounded-full undefined">Shop now<img src="/src/assets/icons/arrow-right.svg" alt="arrow right icon" class="ml-2 rounded-full bg-white w-5 h-5"></button><button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
+    bg-white text-slate-gray border-slate-gray rounded-full undefined">Learn more</button></div></div></section></section>
+  </template>

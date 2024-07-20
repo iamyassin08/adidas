@@ -19,26 +19,5 @@ const reviews = [
 </script>
 
 <template>
-  <section class="max-container">
-    <h3 class="font-palanquin text-center text-4xl font-bold">
-      What Our
-      <span class="text-coral-red"> Customers </span>
-      Say?
-    </h3>
-    <p class="m-auto mt-4 max-w-lg text-center info-text">
-      Hear genuine stories from our satisfied customers about their
-      exceptional experiences with us.
-    </p>
-
-    <div class="mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14">
-      <ReviewCard
-        v-for="(review, index) in reviews"
-        :key="index"
-        :imgURL="review.imgURL"
-        :customerName="review.customerName"
-        :rating="review.rating"
-        :feedback="review.feedback"
-      />
-    </div>
-  </section>
+  <section class="bg-pale-blue padding"><section class="max-container"><h3 class="font-palanquin text-center text-4xl font-bold">What Our<span class="text-coral-red"> Customers </span>Say?</h3><p class="m-auto mt-4 max-w-lg  text-center info-text">Hear genuine stories from our satisfied customers about their exceptional experiences with us.</p><div class="mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14"><div class="flex justify-center items-center flex-col"><img src="/src/assets/images/customer1.jpeg" alt="customer" class="rounded-full object-cover w-[120px] h-[120px]"><p class="mt-6 max-w-sm text-center info-text">The attention to detail and the quality of the product exceeded my expectations. Highly recommended!</p><div class="mt-3 flex justify-center items-center gap-2.5"><img src="/src/assets/icons/star.svg" width="24" height="24" alt="rating star" class="object-contain m-0"><p class="text-xl font-montserrat text-slate-gray">(4.5)</p></div><h3 class="mt-1 font-palanquin text-3xl text-center font-bold">Morich Brown</h3></div><div class="flex justify-center items-center flex-col"><img src="/src/assets/images/customer2.svg" alt="customer" class="rounded-full object-cover w-[120px] h-[120px]"><p class="mt-6 max-w-sm text-center info-text">The product not only met but exceeded my expectations. I'll definitely be a returning customer!</p><div class="mt-3 flex justify-center items-center gap-2.5"><img src="/src/assets/icons/star.svg" width="24" height="24" alt="rating star" class="object-contain m-0"><p class="text-xl font-montserrat text-slate-gray">(4.5)</p></div><h3 class="mt-1 font-palanquin text-3xl text-center font-bold">Lota Mongeskar</h3></div></div></section></section>
 </template>

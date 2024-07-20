@@ -18,11 +18,12 @@ import SuperQuality from "../components/sections/SuperQuality.vue";
     <!-- Main Content -->
     <main id="content" role="main" class="flex-1 pt-[59px] bg-gray-100 dark:bg-neutral-900">
       <HomeHero />
-      <CustomerReviews />
+    
       <PopularProducts />
       <SuperQuality />
       <Services />
       <SpecialOffer />
+      <CustomerReviews />
       <Subscribe />
     </main>
 
