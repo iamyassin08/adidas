@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-// import HomeView from "@/views/HomeView.vue";
 import "preline/preline";
 import { type IStaticMethods } from "preline/preline";
 import HomeView from "../views/HomeView.vue"
@@ -49,7 +48,7 @@ const router = createRouter({
   ],
 });
 
-router.afterEach((to, from, failure) => {
+router.afterEach((_to, _from, failure) => {
   if (!failure) {
     setTimeout(() => {
       window.HSStaticMethods.autoInit();
