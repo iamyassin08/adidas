@@ -30,7 +30,7 @@ function switchImage(image: string) {
           Discover stylish Adidas arrivals, quality comfort, and innovation for your active life.
         </p>
         <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
-          bg-coral-red text-white border-coral-red rounded-full hover:bg-coral-light transition-all duration-300 dark:bg-coral-dark dark:border-coral-dark">
+          bg-blue-700 text-white border-blue-700 rounded-full hover:bg-coral-light transition-all duration-300 dark:bg-coral-dark dark:border-coral-dark">
           Shop now
           <img src="/src/assets/icons/arrow-right.svg" alt="arrow right icon" class="ml-2 rounded-full bg-white w-5 h-5 transition-transform duration-300 hover:translate-x-1">
         </button>
@@ -54,7 +54,7 @@ function switchImage(image: string) {
         <img :src="currentImage" alt="shoe collection" width="610" height="502" class="object-contain relative z-10 transition-transform duration-300 hover:scale-105">
         <div class="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           <div v-for="image in images" :key="image">
-            <div class="border-2 rounded-xl border-coral-red cursor-pointer max-sm:flex-1 transition-transform duration-300 hover:scale-105"
+            <div class="border-2 rounded-xl border-blue-700 cursor-pointer max-sm:flex-1 transition-transform duration-300 hover:scale-105"
               @click="switchImage(image)">
               <div class="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                 <img :src="image" alt="shoe collection thumbnail" width="127" height="103.34" class="object-contain">

@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section class="px-4 py-16 sm:py-32 w-full bg-gray-100 dark:bg-gray-900">
+  <section class="px-4 py-16 sm:py-32 w-full bg-white dark:bg-gray-900">
     <section id="contact-us" class="max-w-screen-xl mx-auto flex flex-wrap justify-between items-center gap-10 lg:flex-nowrap">
       <h3 class="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold text-gray-900 dark:text-gray-100 transition-transform duration-500 hover:translate-y-1">
         Sign Up for<span class="text-blue-500"> Updates </span>&amp; Newsletter
