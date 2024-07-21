@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 // import HomeView from "@/views/HomeView.vue";
 import "preline/preline";
 import { type IStaticMethods } from "preline/preline";
-// import AppLayout from "@/layouts/AppLayout.vue";
 import HomeView from "../views/HomeView.vue"
 import AppLayout from '../layouts/AppLayout.vue';
 
@@ -20,6 +19,32 @@ const router = createRouter({
       meta: {layout: AppLayout},
       component: HomeView,
     },
+    {
+      path: "/about",
+      name: "about",
+      meta: {layout: AppLayout},
+      component: () => import("../views/AboutView.vue"),
+    },
+
+    {
+      path: "/contact",
+      name: "Contact",
+      meta: {layout: AppLayout},
+      component: () => import("../views/ContactView.vue"),
+    },
+    {
+      path: "/products",
+      name: "products",
+      meta: {layout: AppLayout},
+      component: () => import("../views/ProductsView.vue"),
+    },
+    {
+      path: "/signin",
+      name: "signin",
+      meta: {layout: AppLayout},
+      component: () => import("../views/SignInView.vue"),
+    },
+  
     
   ],
 });
