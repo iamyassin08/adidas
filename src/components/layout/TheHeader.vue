@@ -38,10 +38,10 @@ export default defineComponent({
 
       <!-- Navigation Links -->
       <ul class="hidden lg:flex flex-1 justify-center items-center gap-8">
-        <li><RouterLink to="#home" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Home</RouterLink></li>
-        <li><RouterLink to="#about-us" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">About Us</RouterLink></li>
-        <li><RouterLink to="#products" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Products</RouterLink></li>
-        <li><RouterLink to="#contact-us" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Contact Us</RouterLink></li>
+        <li><RouterLink to="/" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Home</RouterLink></li>
+        <li><RouterLink to="/about" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">About Us</RouterLink></li>
+        <li><RouterLink to="/products" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Products</RouterLink></li>
+        <li><RouterLink to="/contact" class="text-lg text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Contact Us</RouterLink></li>
       </ul>
 
       <!-- Sign in and Explore Links -->
@@ -112,10 +112,10 @@ export default defineComponent({
         @click.self="toggleMobileMenu"
       >
         <nav class="flex flex-col items-center w-full space-y-4">
-          <RouterLink to="#home" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Home</RouterLink>
-          <RouterLink to="#about-us" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">About Us</RouterLink>
-          <RouterLink to="#products" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Products</RouterLink>
-          <RouterLink to="#contact-us" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Contact Us</RouterLink>
+          <RouterLink to="/home" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Home</RouterLink>
+          <RouterLink to="/about" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">About Us</RouterLink>
+          <RouterLink to="/products" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Products</RouterLink>
+          <RouterLink to="/contact" class="text-lg text-gray-700 py-2 w-full text-center hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700">Contact Us</RouterLink>
           <div class="flex flex-col gap-2 mt-4 w-full px-4">
             <RouterLink to="/signin" class="py-2 px-3 inline-flex items-center text-sm font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white w-full transition-transform duration-300">
               Sign in

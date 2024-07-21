@@ -48,7 +48,7 @@ const router = createRouter({
   ],
 });
 
-router.afterEach((_to, _from, failure) => {
+router.afterEach((to, from, failure) => {
   if (!failure) {
     setTimeout(() => {
       window.HSStaticMethods.autoInit();
