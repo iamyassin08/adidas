@@ -5,8 +5,13 @@
       <div class="flex flex-wrap lg:flex-nowrap justify-between items-start gap-10 lg:gap-20">
         <!-- Logo and Description -->
         <div class="flex flex-col items-start max-w-xs lg:max-w-sm">
-          <RouterLink to="/">
-            <img src="/src/assets/images/footer-logo.svg" alt="logo" width="150" height="46" class="mb-6 transition-transform duration-500 hover:scale-105">
+          <RouterLink to="/" class="flex items-center">
+            <img
+              src="/src/assets//images/footer-logo.png"
+              alt="logo"
+              class="w-[129px] h-[29px] transition-transform duration-300 text-white"
+            />
+            <h2 class="ml-2 font-bold text-blue-500 text-2xl">ADIDAS</h2>
           </RouterLink>
           <p class="text-base leading-7 font-montserrat text-white-400 dark:text-gray-300 transition-colors duration-300">
             Get shoes ready for the new term at your nearest Adidas store. Find your perfect size in-store. Get rewards.

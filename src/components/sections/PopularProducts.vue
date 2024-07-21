@@ -18,46 +18,46 @@
         <!-- Product Item with Background Image -->
         <div class="relative flex flex-1 flex-col w-full max-sm:w-full rounded-lg overflow-hidden">
           <div class="absolute inset-0 bg-[url('/src/assets/images/thumbnail-background.svg')] bg-cover bg-center"></div>
-          <img src="/src/assets/images/shoe4.jpg" alt="Nike Air Jordan-01" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
+          <img src="/src/assets/images/shoe4.jpg" alt="Adidas Predator Edge" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
           <div class="relative z-10 mt-8 flex justify-start gap-2.5">
             <img src="/src/assets/icons/star.svg" alt="rating icon" width="24" height="24">
             <p class="font-montserrat text-xl leading-normal text-slate-gray">(4.5)</p>
           </div>
-          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Nike Air Jordan-01</h3>
+          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Adidas Predator Edge</h3>
           <p class="relative z-10 mt-2 font-semibold font-montserrat text-blue-700 text-2xl leading-normal">$200.20</p>
         </div>
 
         <!-- Repeat for other product items -->
         <div class="relative flex flex-1 flex-col w-full max-sm:w-full rounded-lg overflow-hidden">
           <div class="absolute inset-0 bg-[url('/src/assets/images/thumbnail-background.svg')] bg-cover bg-center"></div>
-          <img src="/src/assets/images/shoe5.jpg" alt="Nike Air Jordan-10" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
+          <img src="/src/assets/images/shoe5.jpg" alt="Adidas X Speedportal" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
           <div class="relative z-10 mt-8 flex justify-start gap-2.5">
             <img src="/src/assets/icons/star.svg" alt="rating icon" width="24" height="24">
             <p class="font-montserrat text-xl leading-normal text-slate-gray">(4.5)</p>
           </div>
-          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Nike Air Jordan-10</h3>
+          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Adidas X Speedportal</h3>
           <p class="relative z-10 mt-2 font-semibold font-montserrat text-blue-700 text-2xl leading-normal">$210.20</p>
         </div>
 
         <div class="relative flex flex-1 flex-col w-full max-sm:w-full rounded-lg overflow-hidden">
           <div class="absolute inset-0 bg-[url('/src/assets/images/thumbnail-background.svg')] bg-cover bg-center"></div>
-          <img src="/src/assets/images/shoe6.jpg" alt="Nike Air Jordan-100" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
+          <img src="/src/assets/images/shoe6.jpg" alt="Adidas Copa Sense" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
           <div class="relative z-10 mt-8 flex justify-start gap-2.5">
             <img src="/src/assets/icons/star.svg" alt="rating icon" width="24" height="24">
             <p class="font-montserrat text-xl leading-normal text-slate-gray">(4.5)</p>
           </div>
-          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Nike Air Jordan-100</h3>
+          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Adidas Copa Sense</h3>
           <p class="relative z-10 mt-2 font-semibold font-montserrat text-blue-700 text-2xl leading-normal">$220.20</p>
         </div>
 
         <div class="relative flex flex-1 flex-col w-full max-sm:w-full rounded-lg overflow-hidden">
           <div class="absolute inset-0 bg-[url('/src/assets/images/thumbnail-background.svg')] bg-cover bg-center"></div>
-          <img src="/src/assets/images/shoe7.jpg" alt="Nike Air Jordan-001" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
+          <img src="/src/assets/images/shoe7.jpg" alt="Adidas Nemeziz" class="relative z-10 w-[282px] h-[282px] mx-auto mt-8">
           <div class="relative z-10 mt-8 flex justify-start gap-2.5">
             <img src="/src/assets/icons/star.svg" alt="rating icon" width="24" height="24">
             <p class="font-montserrat text-xl leading-normal text-slate-gray">(4.5)</p>
           </div>
-          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Nike Air Jordan-001</h3>
+          <h3 class="relative z-10 mt-2 text-2xl leading-normal font-semibold font-palanquin">Adidas Nemeziz</h3>
           <p class="relative z-10 mt-2 font-semibold font-montserrat text-blue-700 text-2xl leading-normal">$230.20</p>
         </div>
       </div>
