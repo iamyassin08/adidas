@@ -46,7 +46,7 @@ export default defineComponent({
 
       <!-- Sign in and Explore Links -->
       <div class="hidden lg:flex gap-4 text-lg font-medium">
-        <RouterLink to="/" class="text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Sign in</RouterLink>
+        <RouterLink to="/signin class="text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Sign in</RouterLink>
         <span>/</span>
         <RouterLink to="/" class="text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">Explore now</RouterLink>
       </div>
