@@ -5,8 +5,9 @@
   <section class="px-4 py-10 bg-white dark:bg-gray-900">
     <section class="flex flex-wrap justify-between items-center gap-10 max-container mx-auto max-xl:flex-col-reverse">
       <div class="flex-1 transition-transform duration-500 hover:scale-105">
-        <img src="/src/assets/images/offer.svg" alt="Shoe Promotion" width="773" height="687" class="object-contain w-full">
+        <img src="/src/assets/images/offer.png" alt="Shoe Promotion" width="773" height="687" class="object-contain w-full rounded-lg">
       </div>
+      
       <div class="flex flex-1 flex-col">
         <h2 class="text-4xl font-palanquin font-bold text-gray-900 dark:text-gray-100 transition-transform duration-500 hover:translate-x-2">
           <span class="text-blue-600 dark:text-blue-400">Special </span>

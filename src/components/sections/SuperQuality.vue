@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="flex-1 flex justify-center items-center">
-        <img src="/src/assets/images/shoe8.svg" alt="product detail" class="object-contain w-full max-w-md transition-transform duration-500 hover:scale-105">
+        <img src="/src/assets/images/shoe8.jpg" alt="product detail" class="object-contain w-full max-w-md transition-transform duration-500 hover:scale-105">
       </div>
     </section>
   </section>

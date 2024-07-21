@@ -3,9 +3,9 @@ import { ref } from 'vue';
 
 const bigShoeImg = ref('/src/assets/images/big-shoe1.png');
 const shoes = [
-  "/src/assets/images/thumbnail-shoe1.svg",
-  '/src/assets/images/thumbnail-shoe2.svg',
-  '/src/assets/images/thumbnail-shoe3.svg'
+  "/src/assets/images/thumbnail-shoe1.png",
+  '/src/assets/images/thumbnail-shoe2.png',
+  '/src/assets/images/thumbnail-shoe3.png'
 ];
 
 const statistics = [

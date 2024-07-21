@@ -29,7 +29,7 @@
           <!-- Products -->
           <div class="flex-1">
             <h4 class="text-2xl font-montserrat font-medium mb-6 text-white dark:text-gray-100">
-              Adidas Soccer Cleats
+              Products
             </h4>
             <ul>
               <li class="mt-3 text-base leading-normal text-white-400 dark:text-gray-300 hover:text-slate-gray dark:hover:text-slate-300 transition-colors duration-300">
